@@ -1,0 +1,52 @@
+/* App.css - Background image for Paradise Nursery landing page */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.landing-page {
+  background-image: url('https://source.unsplash.com/1600x900/?plants,indoors');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.landing-page h1 {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+}
+
+.landing-page p {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.get-started-btn {
+  padding: 18px 50px;
+  font-size: 1.3rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
